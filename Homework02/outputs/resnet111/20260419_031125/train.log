@@ -1,0 +1,45 @@
+2026-04-19 03:11:25,692 | INFO | loading config from configs/resnet18.py
+2026-04-19 03:11:29,528 | INFO | dataset split=train num_samples=65932 class_counts={'0': 4461, '1': 12450, '2': 9581, '3': 7640, '4': 6716, '5': 6188, '6': 5130, '7': 5033, '8': 4558, '9': 4175}
+2026-04-19 03:11:29,528 | INFO | dataset split=val num_samples=7325 class_counts={'0': 487, '1': 1411, '2': 1004, '3': 857, '4': 742, '5': 694, '6': 597, '7': 562, '8': 487, '9': 484}
+2026-04-19 03:11:29,529 | INFO | dataset split=test num_samples=26032 class_counts={'0': 1744, '1': 5099, '2': 4149, '3': 2882, '4': 2523, '5': 2384, '6': 1977, '7': 2019, '8': 1660, '9': 1595}
+2026-04-19 03:11:38,113 | INFO | epoch=1 split=train loss=1.9327 acc=0.3246
+2026-04-19 03:11:39,038 | INFO | epoch=1 split=val loss=1.6480 acc=0.4164
+2026-04-19 03:11:47,631 | INFO | epoch=2 split=train loss=1.1376 acc=0.6332
+2026-04-19 03:11:48,272 | INFO | epoch=2 split=val loss=0.8639 acc=0.7189
+2026-04-19 03:11:57,665 | INFO | epoch=3 split=train loss=0.6471 acc=0.8071
+2026-04-19 03:11:57,963 | INFO | epoch=3 split=val loss=0.6564 acc=0.7888
+2026-04-19 03:12:04,910 | INFO | epoch=4 split=train loss=0.4504 acc=0.8675
+2026-04-19 03:12:05,203 | INFO | epoch=4 split=val loss=0.4300 acc=0.8709
+2026-04-19 03:12:12,079 | INFO | epoch=5 split=train loss=0.3647 acc=0.8917
+2026-04-19 03:12:12,363 | INFO | epoch=5 split=val loss=0.4088 acc=0.8711
+2026-04-19 03:12:19,169 | INFO | epoch=6 split=train loss=0.3177 acc=0.9061
+2026-04-19 03:12:19,451 | INFO | epoch=6 split=val loss=0.3809 acc=0.8851
+2026-04-19 03:12:26,495 | INFO | epoch=7 split=train loss=0.2867 acc=0.9169
+2026-04-19 03:12:26,780 | INFO | epoch=7 split=val loss=0.3235 acc=0.9048
+2026-04-19 03:12:34,000 | INFO | epoch=8 split=train loss=0.2554 acc=0.9251
+2026-04-19 03:12:34,293 | INFO | epoch=8 split=val loss=0.2993 acc=0.9047
+2026-04-19 03:12:41,228 | INFO | epoch=9 split=train loss=0.2372 acc=0.9310
+2026-04-19 03:12:41,515 | INFO | epoch=9 split=val loss=0.3131 acc=0.9063
+2026-04-19 03:12:51,206 | INFO | epoch=10 split=train loss=0.2208 acc=0.9364
+2026-04-19 03:12:51,585 | INFO | epoch=10 split=val loss=0.3096 acc=0.9044
+2026-04-19 03:13:00,958 | INFO | epoch=11 split=train loss=0.1689 acc=0.9544
+2026-04-19 03:13:01,242 | INFO | epoch=11 split=val loss=0.2393 acc=0.9286
+2026-04-19 03:13:08,234 | INFO | epoch=12 split=train loss=0.1556 acc=0.9599
+2026-04-19 03:13:08,525 | INFO | epoch=12 split=val loss=0.2418 acc=0.9293
+2026-04-19 03:13:15,432 | INFO | epoch=13 split=train loss=0.1509 acc=0.9612
+2026-04-19 03:13:15,715 | INFO | epoch=13 split=val loss=0.2403 acc=0.9297
+2026-04-19 03:13:22,807 | INFO | epoch=14 split=train loss=0.1467 acc=0.9627
+2026-04-19 03:13:23,098 | INFO | epoch=14 split=val loss=0.2415 acc=0.9302
+2026-04-19 03:13:30,041 | INFO | epoch=15 split=train loss=0.1428 acc=0.9639
+2026-04-19 03:13:30,327 | INFO | epoch=15 split=val loss=0.2449 acc=0.9291
+2026-04-19 03:13:37,122 | INFO | epoch=16 split=train loss=0.1397 acc=0.9656
+2026-04-19 03:13:37,404 | INFO | epoch=16 split=val loss=0.2433 acc=0.9281
+2026-04-19 03:13:44,240 | INFO | epoch=17 split=train loss=0.1366 acc=0.9670
+2026-04-19 03:13:44,523 | INFO | epoch=17 split=val loss=0.2459 acc=0.9278
+2026-04-19 03:13:54,198 | INFO | epoch=18 split=train loss=0.1330 acc=0.9673
+2026-04-19 03:13:54,484 | INFO | epoch=18 split=val loss=0.2481 acc=0.9270
+2026-04-19 03:14:04,258 | INFO | epoch=19 split=train loss=0.1298 acc=0.9685
+2026-04-19 03:14:04,543 | INFO | epoch=19 split=val loss=0.2447 acc=0.9279
+2026-04-19 03:14:11,574 | INFO | epoch=20 split=train loss=0.1279 acc=0.9691
+2026-04-19 03:14:11,860 | INFO | epoch=20 split=val loss=0.2476 acc=0.9266
+2026-04-19 03:14:13,878 | INFO | test loss=0.2209 acc=0.9383

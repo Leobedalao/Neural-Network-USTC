@@ -111,7 +111,7 @@
 
 | 训练曲线 | 混淆矩阵 | 分类别准确率 |
 | --- | --- | --- |
-| ![CNN 训练曲线](cnn/20260419_015547/curves.png) | ![CNN 混淆矩阵](../cnn/20260419_015547/confusion_matrix.png) | ![CNN 分类别准确率](../cnn/20260419_015547/per_class_accuracy.png) |
+| ![CNN 训练曲线](outputs/cnn/20260419_015547/curves.png) | ![CNN 混淆矩阵](outputs/cnn/20260419_015547/confusion_matrix.png) | ![CNN 分类别准确率](outputs/cnn/20260419_015547/per_class_accuracy.png) |
 
 从可视化结果看，`CNN` 的训练过程较平稳，但最终上限相对有限；混淆矩阵中仍能看到若干类别之间存在较明显的相互混淆，这与其总体精度偏低是一致的。
 
@@ -119,7 +119,7 @@
 
 | 训练曲线 | 混淆矩阵 | 分类别准确率 |
 | --- | --- | --- |
-| ![ResNet-111 训练曲线](../resnet111/20260419_031125/curves.png) | ![ResNet-111 混淆矩阵](../resnet111/20260419_031125/confusion_matrix.png) | ![ResNet-111 分类别准确率](../resnet111/20260419_031125/per_class_accuracy.png) |
+| ![ResNet-111 训练曲线](outputs/resnet111/20260419_031125/curves.png) | ![ResNet-111 混淆矩阵](outputs/resnet111/20260419_031125/confusion_matrix.png) | ![ResNet-111 分类别准确率](outputs/resnet111/20260419_031125/per_class_accuracy.png) |
 
 `ResNet-111` 的训练曲线表现出更高的收敛上限，混淆矩阵主对角线更加集中，说明残差连接有效增强了特征传播与梯度优化能力，因此在大多数类别上都取得了较稳定的提升。
 
@@ -127,7 +127,7 @@
 
 | 训练曲线 | 混淆矩阵 | 分类别准确率 |
 | --- | --- | --- |
-| ![SE-ResNet-111 训练曲线](../seresnet111/20260419_023002/curves.png) | ![SE-ResNet-111 混淆矩阵](../seresnet111/20260419_023002/confusion_matrix.png) | ![SE-ResNet-111 分类别准确率](../seresnet111/20260419_023002/per_class_accuracy.png) |
+| ![SE-ResNet-111 训练曲线](outputs/seresnet111/20260419_023002/curves.png) | ![SE-ResNet-111 混淆矩阵](outputs/seresnet111/20260419_023002/confusion_matrix.png) | ![SE-ResNet-111 分类别准确率](outputs/seresnet111/20260419_023002/per_class_accuracy.png) |
 
 `SE-ResNet` 的整体趋势与 `ResNet` 接近，但在部分类别上的识别更突出，说明通道注意力没有显著改变总体性能上限，却在局部判别细节上带来了有意义的修正。
 

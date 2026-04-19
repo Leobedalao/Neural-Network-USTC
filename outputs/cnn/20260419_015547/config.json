@@ -1,0 +1,68 @@
+{
+  "experiment": {
+    "name": "cnn",
+    "run_name": "",
+    "notes": ""
+  },
+  "paths": {
+    "data_dir": "data/raw",
+    "train_mat": "data/raw/train_32x32.mat",
+    "test_mat": "data/raw/test_32x32.mat",
+    "split_dir": "data/splits",
+    "output_root": "outputs"
+  },
+  "data": {
+    "image_size": 32,
+    "in_channels": 3,
+    "num_classes": 10,
+    "val_ratio": 0.1,
+    "num_workers": 0,
+    "pin_memory": true,
+    "normalize": true,
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "model": {
+    "name": "cnn",
+    "num_classes": 10,
+    "in_channels": 3,
+    "base_channels": 32,
+    "dropout": 0.3,
+    "reduction": 16
+  },
+  "train": {
+    "seed": 42,
+    "device": "cuda:2",
+    "batch_size": 128,
+    "epochs": 20,
+    "log_interval": 50,
+    "save_best_metric": "val_acc",
+    "save_last": true
+  },
+  "optimizer": {
+    "name": "sgd",
+    "lr": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "nesterov": false
+  },
+  "scheduler": {
+    "name": "step",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "eval": {
+    "batch_size": 256
+  },
+  "plot": {
+    "dpi": 150
+  }
+}

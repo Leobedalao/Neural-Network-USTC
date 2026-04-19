@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+outputs/*/smoke_verify/
+data/
+outputs/*/best.pt
+outputs/*/train.log
+outputs/*/last.pt
+scripts/
